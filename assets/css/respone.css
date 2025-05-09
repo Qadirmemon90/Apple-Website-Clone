@@ -1,0 +1,266 @@
+/* website Responsicve section Start */
+@media screen and (max-width:1100px) {
+    .gallery-center-container{
+        flex-direction: column;
+    }
+    .card-0,.card-1,.card-2,.card-3,.card-4,.card-5{
+        width: 100%;
+        height: 80vh;
+        background-size: cover;
+        background-position: center;
+    }
+    .card-0{
+        background: url('../New-Images/watch-2.jpg') center no-repeat;
+        background-size: cover;
+    }
+}
+@media screen and (max-width:1880px) {
+    .hero {
+        background: url('../New-Images/hero-1.jpeg') center no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 75vh;
+    }
+
+    .hero h1 {
+        margin-top: 50px;
+        font-size: 38px;
+    }
+
+
+    .hero h5 {
+        font-size: 18px;
+    }
+
+    .btn1 {
+        margin-top: 8px;
+        font-size: 17px;
+        padding: 10px 17px;
+    }
+
+    .btn2 {
+        margin-top: 8px;
+        font-size: 17px;
+        padding: 10px 17px;
+    }
+
+    .subhead {
+        margin-top: auto;
+    }
+
+    .content{
+        padding-top: 5%;
+    }
+
+    .text-section {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width:1390px) {
+     .footer-columns {
+    flex-direction: column;
+  }
+
+  .column {
+    margin-bottom: 20px;
+  }
+    .card-3{
+        background: url('../New-Images/macbook-1.jpeg') center no-repeat;
+        background-size: cover;
+    }
+    .card-4{
+        background: url('../New-Images/promo_ipad_air__bfbxzvw65c02_medium_2x.jpg') center no-repeat;
+        background-size: cover;
+    }
+    .card-0{
+        background: url('../New-Images/promo_apple_watch_pride__9efimjc2tteu_medium_2x.jpg') center no-repeat;
+        background-size: cover;
+    }
+    .card-5{
+        background: url('../New-Images/card.jpeg') center no-repeat;
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width:810px) {
+    .hero {
+        background: url('../New-Images/hero-mobile-image.jpg') center no-repeat;
+        background-size: cover;
+    }
+
+    .card-images .content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero h1 {
+        padding-top: 70px;
+        font-size: 38px;
+    }
+
+    .hero h5 {
+        width: auto;
+        height: auto;
+    }
+
+    .btn1 {
+        margin-top: 10px;
+        font-size: 17px;
+        padding: 10px 17px;
+    }
+
+    .btn2 {
+        margin-top: 20px;
+        font-size: 17px;
+        padding: 10px 17px;
+    }
+
+    /* Watch Section */
+    .Watch-section {
+        width: auto;
+        height: 80vh;
+    }
+
+    .Watch-section .h1 {
+        width: 160px;
+        height: 85px;
+    }
+
+    .Watch-section h5 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 18px;
+    }
+
+    .Watch-section .btn1 {
+        margin-top: 10px;
+        font-size: 17px;
+        padding: 10px 17px;
+    }
+
+    .Watch-section .btn2 {
+        margin-top: 20px;
+        font-size: 17px;
+        padding: 10px 17px;
+    }
+
+}
+
+@media screen and (max-width:900px) {
+    .nav-link {
+        display: none;
+    }
+
+
+    .mother-section h1 {
+        width: 100%;
+        font-size: 32px;
+    }
+
+    .mother-section p {
+        font-size: 19px;
+        line-height: 1.21053;
+        font-weight: 400;
+        letter-spacing: .012em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+
+    .mother-section p br {
+        display: block;
+    }
+
+    .hero h1 {
+        padding-top: 70px;
+        font-size: 28px;
+    }
+
+    .hero h5 {
+        font-size: 18px;
+    }
+
+    .btn1 {
+        margin-top: 6px;
+        font-size: 17px;
+        padding: 7px 10px;
+    }
+
+    .btn2 {
+        margin-top: 6px;
+        font-size: 17px;
+        padding: 7px 10px;
+    }
+
+    .subhead {
+        font-size: 14px;
+        margin-top: -20px;
+    }
+
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 5px;
+        height: 20px;
+    }
+
+}
+@media screen and (max-width:1700px) {
+    .hero{
+        background: url('../New-Images/hero-laptop-image.jpg') center no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 60vh;
+    }
+}
+
+@media screen and (max-width:550px) {
+
+    .hero{
+        background: url('../New-Images/hero-mobile-image.jpg') center no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 60vh;
+    }
+
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 5px;
+    }
+
+
+
+}
+
+@media screen and (max-width:1898px) {
+    
+
+    .mother-section h1 {
+        padding-top: 19rem;
+        font-size: 35px;
+    }
+
+    .mother-section p {
+        font-size: 18px;
+    }
+
+    .Watch-section .h1 {
+
+        width: 160px;
+        height: 85px;
+        margin-top: -10px;
+    }
+
+    .Watch-section h5 {
+        font-size: 18px;
+    }
+
+    #btn {
+        padding: 7px 9px;
+        font-size: 14px;
+        margin-top: 5px;
+    }
+}
